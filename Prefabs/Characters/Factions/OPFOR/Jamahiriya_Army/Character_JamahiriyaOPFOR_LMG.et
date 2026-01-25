@@ -1,0 +1,55 @@
+SCR_ChimeraCharacter : "{EA9013904955CD20}Prefabs/Characters/Factions/OPFOR/Jamahiriya_Army/Character_JamahiriyaOPFOR_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#Jamahiriya-Light_Machine_Gunner"
+    Icon ""
+    m_Image "{75AFAD5636ED9958}UI/Textures/EditorPreviews/Auto/Character_JamahiriyaOPFOR_LMG.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     ENTITYTYPE_CHARACTER SIZE_M ROLE_MACHINEGUNNER FACTION_JAMAHIRIYA_OPFOR
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3BFBE9145E9C40BA}Prefabs/Weapons/MachineGuns/RPK/BC_RPK.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A7E6D7ECD5F684D7}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{293F577C298061E3}Prefabs/Characters/Uniforms/Jacket_US_BDU_02.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{70C82F04FAC79A23}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_rifleman_soviet_mixed_LMG.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{671AB184A28AACAC}" {
+     TargetStorage "Jacket/Jacket_US_BDU_02.et"
+    }
+    ItemsInitConfigurationItem "{671AFB640A9CA70E}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman_soviet_mixed_LMG.et/MagPouch/Pouch_Soviet_45rnd_RPK74.et"
+     PrefabsToSpawn {
+      "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{50083D7DF1F318CA}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{671AFB66E4F21EE2}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman_soviet_mixed_LMG.et/MagPouch2/Vest_SovietHarness_GrenadePouch.et"
+    }
+    ItemsInitConfigurationItem "{671AFB66CD355574}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman_soviet_mixed_LMG.et/Buttpack/Vest_ALICE_buttpack_no_US.et"
+     PrefabsToSpawn {
+      "{50083D7DF1F318CA}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Last_5Tracer.et" "{BCBD3E254B988F87}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Tracer.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

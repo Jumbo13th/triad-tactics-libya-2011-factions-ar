@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{F4EC290977AE4461}Prefabs/Characters/Factions/OPFOR/Jamahiriya_Army/Character_JamahiriyaOPFOR_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{DEBC1236BDB9BB7F}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_02_libyan_color.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3EA8FAD57D8EEABE}Prefabs/Characters/Uniforms/Jacket_US_BDU_02_libyan_color.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{A4EE021C4F6D3B8B}Prefabs/Characters/Uniforms/Pants_US_M65_libyan_color.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{671AB184A28AACAC}" {
+     TargetStorage "Jacket/Jacket_US_BDU_02_libyan_color.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{671AB18420288E6B}" {
+     TargetStorage "Pants/Pants_US_M65_libyan_color.et"
+     PrefabsToSpawn {
+      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded.et" "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et" "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et" "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et" "{36218D5F0C7095E6}Prefabs/Weapons/Flares/Flare_RSP30_red.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C0DE1BBFD25D43D9}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2_JamahiriyaOPFOR.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,964 @@
+SCR_FactionHomeTerritoryConfig {
+ m_aFactionHomeTerritories {
+  SCR_FactionHomeTerritory "{671EA7DE26A8B58C}" {
+   m_sID "Yerevan_Armenian_SSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A8B5CD}" {
+    Name "#AR-Territory_YerevanArmenianSSR"
+   }
+   m_iWeight 58
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A8B5CF}" {
+   m_sID "ArmenianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A8B5CE}" {
+    Name "#AR-Territory_ArmenianSSR"
+   }
+   m_iWeight 66
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A8B5F1}" {
+   m_sID "Baku_AzerbaijanSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A8B5F0}" {
+    Name "#AR-Territory_BakuAzerbaijanSSR"
+   }
+   m_iWeight 62
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A8B5F3}" {
+   m_sID "AzerbaijanSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A8CEED}" {
+    Name "#AR-Territory_AzerbaijanSSR"
+   }
+   m_iWeight 70
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A8CEEB}" {
+   m_sID "BrestOblast_ByelorussianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A8CEEA}" {
+    Name "#AR-Territory_BrestOblastByelorussianSSR"
+   }
+   m_iWeight 17
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A86071}" {
+   m_sID "GomelOblast_ByelorussianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A86072}" {
+    Name "#AR-Territory_GomelOblastByelorussianSSR"
+   }
+   m_iWeight 16
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A86073}" {
+   m_sID "GrodnoOblast_ByelorussianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A86092}" {
+    Name "#AR-Territory_GrodnoOblastByelorussianSSR"
+   }
+   m_iWeight 19
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A86093}" {
+   m_sID "MogilevOblast_ByelorussianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A8609C}" {
+    Name "#AR-Territory_MogilevOblastByelorussianSSR"
+   }
+   m_iWeight 23
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A8609D}" {
+   m_sID "Minsk_ByelorussianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A8609E}" {
+    Name "#AR-Territory_MinskByelorussianSSR"
+   }
+   m_iWeight 15
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A9F12B}" {
+   m_sID "MinskOblast_ByelorussianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A9F12A}" {
+    Name "#AR-Territory_MinskOblastByelorussianSSR"
+   }
+   m_iWeight 16
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A9F12D}" {
+   m_sID "VitebskOblast_ByelorussianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A9F12C}" {
+    Name "#AR-Territory_VitebskOblastByelorussianSSR"
+   }
+   m_iWeight 20
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A9D8A0}" {
+   m_sID "Tallinn_EstonianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A9D8A3}" {
+    Name "#AR-Territory_TallinnEstonianSSR"
+   }
+   m_iWeight 27
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A9D8B5}" {
+   m_sID "EstonianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A9D8B7}" {
+    Name "#AR-Territory_EstonianSSR"
+   }
+   m_iWeight 31
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A93439}" {
+   m_sID "AdjarianAutonomousSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A93438}" {
+    Name "#AR-Territory_AdjarianAutonomousSSR"
+   }
+   m_iWeight 54
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A9343F}" {
+   m_sID "Tbilisi_GeorgianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A91089}" {
+    Name "#AR-Territory_TbilisiGeorgianSSR"
+    IconSetName "47"
+   }
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A91088}" {
+   m_sID "GeorgianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A9108B}" {
+    Name "#AR-Territory_GeorgianSSR"
+   }
+   m_iWeight 54
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A9108A}" {
+   m_sID "AktyubinskOblast_KazakhSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A910B5}" {
+    Name "#AR-Territory_AktyubinskOblastKazakhSSR"
+   }
+   m_iWeight 72
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A910B4}" {
+   m_sID "Alma-Ata_KazakhSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A978B2}" {
+    Name "#AR-Territory_Alma-AtaKazakhSSR"
+   }
+   m_iWeight 48
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A978B1}" {
+   m_sID "EastKazakOblast_KazakhSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A6907C}" {
+    Name "#AR-Territory_EastKazakOblastKazakhSSR"
+   }
+   m_iWeight 72
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A6907D}" {
+   m_sID "KaragandaOblast_KazakhSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A6907A}" {
+    Name "#AR-Territory_KaragandaOblastKazakhSSR"
+   }
+   m_iWeight 72
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A6907B}" {
+   m_sID "SouthKazakOblast_KazakhSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A6FD86}" {
+    Name "#AR-Territory_SouthKazakOblastKazakhSSR"
+   }
+   m_iWeight 72
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A6FD85}" {
+   m_sID "WestKazakOblast_KazakhSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A6FD84}" {
+    Name "#AR-Territory_WestKazakOblastKazakhSSR"
+   }
+   m_iWeight 72
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A6FD8B}" {
+   m_sID "KarkaralinskOkrug_KazakhSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A6FD8A}" {
+    Name "#AR-Territory_KarkaralinskOkrugKazakhSSR"
+   }
+   m_iWeight 72
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A6FD96}" {
+   m_sID "OshOblast_KirghizSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A6FD95}" {
+    Name "#AR-Territory_OshOblastKirghizSSR"
+   }
+   m_iWeight 43
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A6FD94}" {
+   m_sID "Issyk-KulOblast_KirghizSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A6D17E}" {
+    Name "#AR-Territory_Issyk-KulOblastKirghizSSR"
+   }
+   m_iWeight 43
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A6D171}" {
+   m_sID "Frunze_KirghizSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A60B35}" {
+    Name "#AR-Territory_FrunzeKirghizSSR"
+   }
+   m_iWeight 37
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A60B34}" {
+   m_sID "KirghizSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A7A793}" {
+    Name "#AR-Territory_KirghizSSR"
+   }
+   m_iWeight 43
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A7A790}" {
+   m_sID "Riga_LatvianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A7A791}" {
+    Name "#AR-Territory_RigaLatvianSSR"
+   }
+   m_iWeight 47
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A7AF6B}" {
+   m_sID "LatvianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A7AF6C}" {
+    Name "#AR-Territory_LatvianSSR"
+   }
+   m_iWeight 53
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A7E7B0}" {
+   m_sID "Vilnius_LithuanianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A7E7B1}" {
+    Name "#AR-Territory_VilniusLithuanianSSR"
+   }
+   m_iWeight 65
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A7E7B2}" {
+   m_sID "LithuanianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A7099F}" {
+    Name "#AR-Territory_LithuanianSSR"
+   }
+   m_iWeight 74
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A7099E}" {
+   m_sID "Chișinău_MoldavianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A709E1}" {
+    Name "#AR-Territory_ChisinauMoldavianSSR"
+   }
+   m_iWeight 54
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A49F0F}" {
+   m_sID "MoldavianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A49F0E}" {
+    Name "#AR-Territory_MoldavianSSR"
+   }
+   m_iWeight 65
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A49F0D}" {
+   m_sID "AltayKray_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A49F0C}" {
+    Name "#AR-Territory_AltayKrayRussianSFSR"
+   }
+   m_iWeight 102
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A48CBB}" {
+   m_sID "KhabarovskKray_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A48CBC}" {
+    Name "#AR-Territory_KhabarovskKrayRussianSFSR"
+   }
+   m_iWeight 76
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A4328A}" {
+   m_sID "KranodarKray_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A4328B}" {
+    Name "#AR-Territory_KranodarKrayRussianSFSR"
+   }
+   m_iWeight 76
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A43288}" {
+   m_sID "KrasnayarskKray_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A4552B}" {
+    Name "#AR-Territory_KrasnayarskKrayRussianSFSR"
+   }
+   m_iWeight 51
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A4552A}" {
+   m_sID "PrimorskiyKray_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A45525}" {
+    Name "#AR-Territory_PrimorskiyKrayRussianSFSR"
+   }
+   m_iWeight 51
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A582FA}" {
+   m_sID "StavropolKray_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A582FB}" {
+    Name "#AR-Territory_StavropolKrayRussianSFSR"
+   }
+   m_iWeight 51
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A582F8}" {
+   m_sID "AmurOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A582F9}" {
+    Name "#AR-Territory_AmurOblastRussianSFSR"
+   }
+   m_iWeight 25
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A582FE}" {
+   m_sID "ArkhangelskOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A51E7B}" {
+    Name "#AR-Territory_ArkhangelskOblastRussianSFSR"
+   }
+   m_iWeight 25
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A51E7A}" {
+   m_sID "AstrakhanOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A51E78}" {
+    Name "#AR-Territory_AstrakhanOblastRussianSFSR"
+   }
+   m_iWeight 102
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A5599B}" {
+   m_sID "BelgorodOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A55984}" {
+    Name "#AR-Territory_BelgorodOblastRussianSFSR"
+   }
+   m_iWeight 38
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A55985}" {
+   m_sID "BryanskOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A55986}" {
+    Name "#AR-Territory_BryanskOblastRussianSFSR"
+   }
+   m_iWeight 30
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A55C1F}" {
+   m_sID "ChelyabinskOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A55C1E}" {
+    Name "#AR-Territory_ChelyabinskOblastRussianSFSR"
+   }
+   m_iWeight 64
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A2F9EA}" {
+   m_sID "ChitaOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A2F9D8}" {
+    Name "#AR-Territory_ChitaOblastRussianSFSR"
+   }
+   m_iWeight 46
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A2F9DB}" {
+   m_sID "GorkyOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A2C58A}" {
+    Name "#AR-Territory_GorkyOblastRussianSFSR"
+   }
+   m_iWeight 25
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A2C58B}" {
+   m_sID "IrkutskOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A2C58C}" {
+    Name "#AR-Territory_IrkutskOblastRussianSFSR"
+   }
+   m_iWeight 48
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A25E0F}" {
+   m_sID "IvanovaOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A25E0E}" {
+    Name "#AR-Territory_IvanovaOblastRussianSFSR"
+   }
+   m_iWeight 51
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A3FDA0}" {
+   m_sID "KalininOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A3FDA3}" {
+    Name "#AR-Territory_KalininOblastRussianSFSR"
+   }
+   m_iWeight 36
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A3FDA2}" {
+   m_sID "KaliningradOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A33271}" {
+    Name "#AR-Territory_KaliningradOblastRussianSFSR"
+   }
+   m_iWeight 41
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A3327E}" {
+   m_sID "KalugaOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A3327F}" {
+    Name "#AR-Territory_KalugaOblastRussianSFSR"
+   }
+   m_iWeight 66
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A3022B}" {
+   m_sID "KamchatkaOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A30228}" {
+    Name "#AR-Territory_KamchatkaOblastRussianSFSR"
+   }
+   m_iWeight 81
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A30229}" {
+   m_sID "KemerovaOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A3022E}" {
+    Name "#AR-Territory_KemerovaOblastRussianSFSR"
+   }
+   m_iWeight 51
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A0A462}" {
+   m_sID "KirovOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A0A463}" {
+    Name "#AR-Territory_KirovOblastRussianSFSR"
+   }
+   m_iWeight 51
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A0907A}" {
+   m_sID "KostromaOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A09079}" {
+    Name "#AR-Territory_KostromaOblastRussianSFSR"
+   }
+   m_iWeight 51
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A09078}" {
+   m_sID "KurganOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A09067}" {
+    Name "#AR-Territory_KurganOblastRussianSFSR"
+   }
+   m_iWeight 61
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A0C773}" {
+   m_sID "KurskOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A0C772}" {
+    Name "#AR-Territory_KurskOblastRussianSFSR"
+   }
+   m_iWeight 30
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A0C771}" {
+   m_sID "KuybyshevOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A07AD4}" {
+    Name "#AR-Territory_KuybyshevOblastRussianSFSR"
+   }
+   m_iWeight 74
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A07AD5}" {
+   m_sID "LeningradOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A07AD3}" {
+    Name "#AR-Territory_LeningradOblastRussianSFSR"
+   }
+   m_iWeight 25
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A18C07}" {
+   m_sID "Leningrad_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A18C04}" {
+    Name "#AR-Territory_LeningradRussianSFSR"
+   }
+   m_iWeight 25
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A18C05}" {
+   m_sID "LipetskOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A18C0A}" {
+    Name "#AR-Territory_LipetskOblastRussianSFSR"
+   }
+   m_iWeight 58
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A108FE}" {
+   m_sID "MagadanOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26A108FF}" {
+    Name "#AR-Territory_MagadanOblastRussianSFSR"
+   }
+   m_iWeight 89
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26A108FC}" {
+   m_sID "MoscowOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DEB312}" {
+    Name "#AR-Territory_MoscowOblastRussianSFSR"
+   }
+   m_iWeight 25
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DEB313}" {
+   m_sID "Moscow_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DEB314}" {
+    Name "#AR-Territory_MoscowRussianSFSR"
+   }
+   m_iWeight 25
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DE8862}" {
+   m_sID "MurmanskOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DE8863}" {
+    Name "#AR-Territory_MurmanskOblastRussianSFSR"
+   }
+   m_iWeight 25
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DE8860}" {
+   m_sID "NovgorodOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DE8861}" {
+    Name "#AR-Territory_NovgorodOblastRussianSFSR"
+   }
+   m_iWeight 33
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DE1C6F}" {
+   m_sID "NovosibirskOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DE1F90}" {
+    Name "#AR-Territory_NovosibirskOblastRussianSFSR"
+   }
+   m_iWeight 66
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DE1F91}" {
+   m_sID "OmskOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DE4254}" {
+    Name "#AR-Territory_OmskOblastRussianSFSR"
+   }
+   m_iWeight 48
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DE4257}" {
+   m_sID "OrenburgOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DF8FFC}" {
+    Name "#AR-Territory_OrenburgOblastRussianSFSR"
+   }
+   m_iWeight 58
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DF8FFD}" {
+   m_sID "OrelOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DF1613}" {
+    Name "#AR-Territory_OrelOblastRussianSFSR"
+   }
+   m_iWeight 51
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DF1614}" {
+   m_sID "PenzaOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DF1615}" {
+    Name "#AR-Territory_PenzaOblastRussianSFSR"
+   }
+   m_iWeight 61
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DF4A10}" {
+   m_sID "PermOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DF4A13}" {
+    Name "#AR-Territory_PermOblastRussianSFSR"
+   }
+   m_iWeight 46
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DF4A12}" {
+   m_sID "PskovOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DF4A1D}" {
+    Name "#AR-Territory_PskovOblastRussianSFSR"
+   }
+   m_iWeight 36
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DCC76F}" {
+   m_sID "RostovOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DCC76E}" {
+    Name "#AR-Territory_RostovOblastRussianSFSR"
+   }
+   m_iWeight 51
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DCC76D}" {
+   m_sID "RyazanOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DC215E}" {
+    Name "#AR-Territory_RyazanOblastRussianSFSR"
+   }
+   m_iWeight 53
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DC215F}" {
+   m_sID "SakhalinOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DC2158}" {
+    Name "#AR-Territory_SakhalinOblastRussianSFSR"
+   }
+   m_iWeight 99
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DC6A15}" {
+   m_sID "SaratovOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DC6A14}" {
+    Name "#AR-Territory_SaratovOblastRussianSFSR"
+   }
+   m_iWeight 53
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DD81CA}" {
+   m_sID "SmolenskOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DD81C9}" {
+    Name "#AR-Territory_SmolenskOblastRussianSFSR"
+   }
+   m_iWeight 41
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DDCA15}" {
+   m_sID "SverdlovskOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DDCA14}" {
+    Name "#AR-Territory_SverdlovskOblastRussianSFSR"
+   }
+   m_iWeight 74
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DDCA0B}" {
+   m_sID "TambovOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DDCA0A}" {
+    Name "#AR-Territory_TambovOblastRussianSFSR"
+   }
+   m_iWeight 79
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DD795F}" {
+   m_sID "TomskOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DD795C}" {
+    Name "#AR-Territory_TomskOblastRussianSFSR"
+   }
+   m_iWeight 61
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DD568D}" {
+   m_sID "TulaOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DD568C}" {
+    Name "#AR-Territory_TulaOblastRussianSFSR"
+   }
+   m_iWeight 36
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DD568B}" {
+   m_sID "TyumenOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DD568A}" {
+    Name "#AR-Territory_TyumenOblastRussianSFSR"
+   }
+   m_iWeight 43
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DA99C3}" {
+   m_sID "UlyanovskOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DA99C0}" {
+    Name "#AR-Territory_UlyanovskOblastRussianSFSR"
+   }
+   m_iWeight 53
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DA99C1}" {
+   m_sID "VladimirOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DA2D47}" {
+    Name "#AR-Territory_VladimirOblastRussianSFSR"
+   }
+   m_iWeight 28
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DA2D48}" {
+   m_sID "VolgogradOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DA2D49}" {
+    Name "#AR-Territory_VolgogradOblastRussianSFSR"
+   }
+   m_iWeight 41
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DBBA14}" {
+   m_sID "VologdaOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DBBA17}" {
+    Name "#AR-Territory_VologdaOblastRussianSFSR"
+   }
+   m_iWeight 51
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DBBA16}" {
+   m_sID "VoronezhOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DBBA11}" {
+    Name "#AR-Territory_VoronezhOblastRussianSFSR"
+   }
+   m_iWeight 38
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DBBD17}" {
+   m_sID "YaroslavlOblast_RussianSFSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DBBD16}" {
+    Name "#AR-Territory_YaroslavlOblastRussianSFSR"
+   }
+   m_iWeight 33
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DBBD15}" {
+   m_sID "Gorno-BadakhshanAutonomousOblast"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DBBD39}" {
+    Name "#AR-Territory_Gorno-BadakhshanAutonomousOblast"
+   }
+   m_iWeight 42
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DBBD38}" {
+   m_sID "Dushanbe_TajikSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DBBD3F}" {
+    Name "#AR-Territory_DushanbeTajikSSR"
+   }
+   m_iWeight 31
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DBBD3E}" {
+   m_sID "SughdOblast_TajikSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DBBD3D}" {
+    Name "#AR-Territory_SughdOblastTajikSSR"
+   }
+   m_iWeight 47
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DB8EAB}" {
+   m_sID "KhatlonOblast_TajikSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DB8EAA}" {
+    Name "#AR-Territory_KhatlonOblastTajikSSR"
+   }
+   m_iWeight 41
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DB8EA5}" {
+   m_sID "TajikSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DBF224}" {
+    Name "#AR-Territory_TajikSSR"
+   }
+   m_iWeight 41
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DBF225}" {
+   m_sID "AshgabatOblast_TurkmenSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DB09F0}" {
+    Name "#AR-Territory_AshgabatOblastTurkmenSSR"
+   }
+   m_iWeight 35
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26DB09F3}" {
+   m_sID "MaryOblast_TurkmenSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26DB09F2}" {
+    Name "#AR-Territory_MaryOblastTurkmenSSR"
+   }
+   m_iWeight 35
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D8AE06}" {
+   m_sID "Ashkabad_TurmenSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D8AE01}" {
+    Name "#AR-Territory_AshkabadTurmenSSR"
+   }
+   m_iWeight 31
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D8AE00}" {
+   m_sID "TurkmenSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D8C6E7}" {
+    Name "#AR-Territory_TurkmenSSR"
+   }
+   m_iWeight 35
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D8C6E4}" {
+   m_sID "VinnytsiaOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D8340D}" {
+    Name "#AR-Territory_VinnytsiaOblastUkrainianSSR"
+   }
+   m_iWeight 43
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D8340C}" {
+   m_sID "OdessaOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D83473}" {
+    Name "#AR-Territory_OdessaOblastUkrainianSSR"
+   }
+   m_iWeight 39
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D839E0}" {
+   m_sID "DonetskOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D839E1}" {
+    Name "#AR-Territory_DonetskOblastUkrainianSSR"
+   }
+   m_iWeight 33
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D839E2}" {
+   m_sID "Kharkov_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D8266A}" {
+    Name "#AR-Territory_KharkovUkrainianSSR"
+   }
+   m_iWeight 21
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D8266B}" {
+   m_sID "Kiev_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D9B48F}" {
+    Name "#AR-Territory_KievUkrainianSSR"
+   }
+   m_iWeight 21
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D9B488}" {
+   m_sID "KievOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D9B489}" {
+    Name "#AR-Territory_KievOblastUkrainianSSR"
+   }
+   m_iWeight 21
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D9DEC5}" {
+   m_sID "ChernihivOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D9DEC6}" {
+    Name "#AR-Territory_ChernihivOblastUkrainianSSR"
+   }
+   m_iWeight 35
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D9DEC7}" {
+   m_sID "ZhitomirOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D9DEC8}" {
+    Name "#AR-Territory_ZhitomirOblastUkrainianSSR"
+   }
+   m_iWeight 37
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D93385}" {
+   m_sID "Kamenets-PodolskiyOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D93384}" {
+    Name "#AR-Territory_Kamenets-PodolskiyOblastUkrainianSSR"
+   }
+   m_iWeight 33
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D9656D}" {
+   m_sID "NikolaevOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D9656E}" {
+    Name "#AR-Territory_NikolaevOblastUkrainianSSR"
+   }
+   m_iWeight 31
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D9656F}" {
+   m_sID "PoltavaOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D96568}" {
+    Name "#AR-Territory_PoltavaOblastUkrainianSSR"
+   }
+   m_iWeight 29
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D96569}" {
+   m_sID "VoroshilovgradOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D9656A}" {
+    Name "#AR-Territory_VoroshilovgradOblastUkrainianSSR"
+   }
+   m_iWeight 37
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D9656B}" {
+   m_sID "ZaporizhiaOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D6B604}" {
+    Name "#AR-Territory_ZaporizhiaOblastUkrainianSSR"
+   }
+   m_iWeight 29
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D6B61B}" {
+   m_sID "KirovogradOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D6A6B9}" {
+    Name "#AR-Territory_KirovogradOblastUkrainianSSR"
+   }
+   m_iWeight 29
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D6A6B8}" {
+   m_sID "SumyOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D6D006}" {
+    Name "#AR-Territory_SumyOblastUkrainianSSR"
+   }
+   m_iWeight 31
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D6D005}" {
+   m_sID "VolynOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D639BA}" {
+    Name "#AR-Territory_VolynOblastUkrainianSSR"
+   }
+   m_iWeight 27
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D639BB}" {
+   m_sID "RovnoOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D639BC}" {
+    Name "#AR-Territory_RovnoOblastUkrainianSSR"
+   }
+   m_iWeight 33
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D639BF}" {
+   m_sID "LvovOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D639B0}" {
+    Name "#AR-Territory_LvovOblastUkrainianSSR"
+   }
+   m_iWeight 25
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D6629E}" {
+   m_sID "StanislavovOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D6629F}" {
+    Name "#AR-Territory_StanislavovOblastUkrainianSSR"
+   }
+   m_iWeight 27
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D6629C}" {
+   m_sID "TarnopolOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D6629D}" {
+    Name "#AR-Territory_TarnopolOblastUkrainianSSR"
+   }
+   m_iWeight 29
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D78C11}" {
+   m_sID "ChernivetskaOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D78C16}" {
+    Name "#AR-Territory_ChernivetskaOblastUkrainianSSR"
+   }
+   m_iWeight 25
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D78C17}" {
+   m_sID "KhersonOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D78C14}" {
+    Name "#AR-Territory_KhersonOblastUkrainianSSR"
+   }
+   m_iWeight 23
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D78C15}" {
+   m_sID "ZakarpattiaOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D78C2A}" {
+    Name "#AR-Territory_ZakarpattiaOblastUkrainianSSR"
+   }
+   m_iWeight 33
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D7D74A}" {
+   m_sID "CherkasyOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D7D74B}" {
+    Name "#AR-Territory_CherkasyOblastUkrainianSSR"
+   }
+   m_iWeight 31
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D72F23}" {
+   m_sID "CrimeanOblast_UkrainianSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D72F20}" {
+    Name "#AR-Territory_CrimeanOblastUkrainianSSR"
+   }
+   m_iWeight 41
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D72F21}" {
+   m_sID "Tashkent_UzbekSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D72F26}" {
+    Name "#AR-Territory_TashkentUzbekSSR"
+   }
+   m_iWeight 54
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D72F27}" {
+   m_sID "KarakaplakAutonomousSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D71658}" {
+    Name "#AR-Territory_KarakaplakAutonomousSSR"
+   }
+   m_iWeight 61
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D7165B}" {
+   m_sID "KhorezmOblast_UzbekSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D7165A}" {
+    Name "#AR-Territory_KhorezmOblastUzbekSSR"
+   }
+   m_iWeight 49
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D775FD}" {
+   m_sID "BukharaOblast_UzbekSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D775F2}" {
+    Name "#AR-Territory_BukharaOblastUzbekSSR"
+   }
+   m_iWeight 55
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D775F3}" {
+   m_sID "SamarkandOblast_UzbekSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D4BAC8}" {
+    Name "#AR-Territory_SamarkandOblastUzbekSSR"
+   }
+   m_iWeight 54
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D4BACB}" {
+   m_sID "KashkadaryaOblast_UzbekSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D49C01}" {
+    Name "#AR-Territory_KashkadaryaOblastUzbekSSR"
+   }
+   m_iWeight 57
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D49C00}" {
+   m_sID "SurkhadaryaOblast_UzbekSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D4D871}" {
+    Name "#AR-Territory_SurkhadaryaOblastUzbekSSR"
+   }
+   m_iWeight 51
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D4D876}" {
+   m_sID "JizzakhOblast_UzbekSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D46D53}" {
+    Name "#AR-Territory_JizzakhOblastUzbekSSR"
+   }
+   m_iWeight 52
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D46D52}" {
+   m_sID "SyrdaryaOblast_UzbekSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D46D51}" {
+    Name "#AR-Territory_SyrdaryaOblastUzbekSSR"
+   }
+   m_iWeight 58
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D46D50}" {
+   m_sID "TashkentOblast_UzbekSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D5ADED}" {
+    Name "#AR-Territory_TashkentOblastUzbekSSR"
+   }
+   m_iWeight 60
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D5ADF2}" {
+   m_sID "AndijanOblast_UzbekSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D52F6C}" {
+    Name "#AR-Territory_AndijanOblastUzbekSSR"
+   }
+   m_iWeight 61
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D52F6D}" {
+   m_sID "NamanganOblast_UzbekSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D52F6E}" {
+    Name "#AR-Territory_NamanganOblastUzbekSSR"
+   }
+   m_iWeight 61
+  }
+  SCR_FactionHomeTerritory "{671EA7DE26D50579}" {
+   m_sID "FerganaOblast_UzbekSSR"
+   m_UIInfo SCR_UIInfo "{671EA7DE26D50578}" {
+    Name "#AR-Territory_FerganaOblastUzbekSSR"
+   }
+   m_iWeight 61
+  }
+ }
+ m_fSharedPlaceOfBirthWeight 0.9
+}

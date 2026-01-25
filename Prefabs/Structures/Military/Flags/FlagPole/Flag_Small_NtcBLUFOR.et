@@ -1,0 +1,11 @@
+GenericEntity {
+ ID "671F61C81C49BB13"
+ coords -0.002 0 0
+ {
+  GenericEntity : "{952E79F74C326439}Prefabs/Props/Fabric/Flags/Flag_1_2_NtcBLUFOR.et" {
+   ID "671F61CBC5E48651"
+   coords -0.036 1.291 -0.006
+   scale 0.5
+  }
+ }
+}

@@ -1,0 +1,7 @@
+MatPBRSkinProfile {
+ Color 0.165 0.071 0 1
+ BCRMap "{ECFF2AA4C7DC009D}Assets/Characters/Heads/Head_White_04/Data/Head_White_04_wound_BCR.edds"
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
+ NMOMap "{D42791361EAB5203}Assets/Characters/Heads/Head_White_04/Data/Head_White_04_wound_NMO.edds"
+ SubsurfaceProfile "{615A5485E64FD13C}Assets/Characters/Basebody/Data/Subsurface_White.emat"
+}

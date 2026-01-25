@@ -1,0 +1,41 @@
+GameEntity : "{0F6C19B0574DCBCA}Prefabs/Characters/Heads/Head_White_03.et" {
+ ID "529C89342C390093"
+ components {
+  MeshObject "{529C8934211B4893}" {
+   Materials {
+    MaterialAssignClass "{671D2173437CBF99}" {
+     SourceMaterial "Eye"
+     AssignedMaterial "{30B2BDFB3603A7D3}Assets/Characters/Heads/Eyes/Colors/Head_Eyes_DarkBrown.emat"
+    }
+    MaterialAssignClass "{671D2173437CBF88}" {
+     SourceMaterial "Eye_wound"
+     AssignedMaterial "{E783BEF1C6ADFD2B}Assets/Characters/Heads/Eyes/Colors/Head_Eyes_DarkBrown_wound.emat"
+    }
+    MaterialAssignClass "{671D2173437CBF80}" {
+     SourceMaterial "Eyelashes"
+     AssignedMaterial "{D9B1B1E4CE06A60B}Assets/Characters/Heads/Eyes/Eyebrows/Head_Eyebrows_Libyan.emat"
+    }
+    MaterialAssignClass "{671D2173437CBFBF}" {
+     SourceMaterial "Eyelashes_wound"
+     AssignedMaterial "{D9B1B1E4CE06A60B}Assets/Characters/Heads/Eyes/Eyebrows/Head_Eyebrows_Libyan.emat"
+    }
+    MaterialAssignClass "{671D2173437CBFB8}" {
+     SourceMaterial "Head_White_03"
+     AssignedMaterial "{B74006DCF65793B8}Assets/Characters/Heads/Head_White_03/Data/Head_Libyan_03.emat"
+    }
+    MaterialAssignClass "{671D2173437CBFB6}" {
+     SourceMaterial "Head_White_03_wound"
+     AssignedMaterial "{AEF6BFE66AC48F21}Assets/Characters/Heads/Head_White_03/Data/Head_Libyan_03_wound.emat"
+    }
+    MaterialAssignClass "{671D2173437CBFAD}" {
+     SourceMaterial "Neck"
+     AssignedMaterial "{7215BBE5CF10EA16}Assets/Characters/Heads/Head_White_03/Data/Head_Libyan_03_neck.emat"
+    }
+    MaterialAssignClass "{671D2173437CBFA8}" {
+     SourceMaterial "Neck_wound"
+     AssignedMaterial "{9149C8940EDAC670}Assets/Characters/Heads/Head_White_03/Data/Head_Libyan_03_wound_neck.emat"
+    }
+   }
+  }
+ }
+}

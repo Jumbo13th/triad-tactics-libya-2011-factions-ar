@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2A0A67B9BC98C237}Prefabs/Structures/Military/Flags/FlagPole/Flag_Small_JamahiriyaOPFOR_Test.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

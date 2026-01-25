@@ -1,0 +1,17 @@
+GenericEntity {
+ ID "671F61C9F81B593F"
+ components {
+  MeshObject "{671F61C9704D745E}" {
+  }
+  RigidBody "{671F61C94B4B15A3}" {
+  }
+ }
+ coords -0.002 0 0
+ {
+  GenericEntity : "{A68480C821A4DE3A}Prefabs/Props/Fabric/Flags/Flag_1_2_JamahiriyaOPFOR.et" {
+   ID "671F61C9F81B56C5"
+   coords -0.036 1.291 -0.006
+   scale 0.5
+  }
+ }
+}

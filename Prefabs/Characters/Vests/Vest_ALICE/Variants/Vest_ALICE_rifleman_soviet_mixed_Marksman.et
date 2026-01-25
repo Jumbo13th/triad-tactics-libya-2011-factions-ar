@@ -1,0 +1,75 @@
+GenericEntity : "{FD0890CE5C6D26CB}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_assembled_base.et" {
+ ID "526492DCB8322C65"
+ components {
+  ClothNodeStorageComponent "{6478F237506572A8}" {
+   Attributes SCR_ItemAttributeCollection "{671B3359EE741768}" {
+    ItemDisplayName UIInfo "{671B3359EE741095}" {
+     Name "#AR-LBS_ALICE_Standard_Name"
+     Description "#AR-LBS_ALICE_Standard_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{671B3359EE741096}" {
+     Weight 2
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 5000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{671B3359EE74109B}" {
+      CameraDistanceToItem 4
+      CameraOffset 0 0.05 0
+      FOV 10
+      PreviewWornModel 1
+     }
+    }
+    m_Size SLOT_2x2
+   }
+   Priority 10
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 3300
+   MaxItemSize 15 15 15
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Suspenders {
+     Prefab "{42A78444D344025D}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_2_no_US.et"
+    }
+    LoadoutSlotInfo MagPouch {
+     Offset -0.0734 -1.0829 0.2273
+     Angles 0.6067 -53 -0.3503
+     Prefab "{A01218E4F8EE0DE7}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_10rnd_SVD/Pouch_Soviet_10rnd_SVD.et"
+     DeflatedOffset -0.1444 0.0678 0.1258
+     DeflatedAngles -9.4973 -44.8 0
+    }
+    LoadoutSlotInfo MagPouch2 {
+     Offset 0.1014 0.0385 0.1048
+     Angles -14.3002 34.0522 -9.029
+     Prefab "{C5A8B378E38AA4FF}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_GrenadePouch.et"
+     DeflatedOffset 0.1391 0.0699 0.1196
+     DeflatedAngles -8.673 44.3001 0
+    }
+    LoadoutSlotInfo Etool {
+     DeflatedOffset -0.1726 -0.0354 -0.1498
+     DeflatedAngles 4.3449 28.1597 -2.431
+    }
+    LoadoutSlotInfo Buttpack {
+     Prefab "{99E85F7C2E136676}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack_no_US.et"
+    }
+    LoadoutSlotInfo FirstAid {
+     DeflatedOffset 0 10 0
+    }
+    LoadoutSlotInfo Cateen {
+     DeflatedOffset 0.1767 -0.0336 -0.1492
+     DeflatedAngles 4.3917 -54.0679 1.0887
+    }
+    LoadoutSlotInfo Bayonet {
+     Offset 0.1503 -0.0248 -0.0322
+     Angles -9.282 92.4418 -1.6794
+     Prefab "{D11383C5E70AAA89}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_MedicalPouch.et"
+     DeactivatePhysicsOnAtaching 1
+     DeflatedOffset 0.1872 0.071 0.0202
+     DeflatedAngles -1.9002 71.85451 -1.9816
+    }
+   }
+  }
+ }
+}

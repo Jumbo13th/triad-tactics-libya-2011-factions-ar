@@ -1,0 +1,74 @@
+SCR_ChimeraCharacter : "{9BCA6AEABB417879}Prefabs/Characters/Factions/OPFOR/Jamahiriya_Army/Character_JamahiriyaOPFOR_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#Jamahiriya-Assistant_Anti-Tank"
+    m_Image "{7DE3C2737C317D11}UI/Textures/EditorPreviews/Auto/Character_JamahiriyaOPFOR_AAT.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     ENTITYTYPE_CHARACTER SIZE_M ROLE_RIFLEMAN FACTION_JAMAHIRIYA_OPFOR
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{41AD4E19A9BDBDCE}Prefabs/Weapons/Rifles/AK47/BC_Rifle_AK47.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A7E6D7ECD5F684D7}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{E5BE6AD5A2955467}Prefabs/Characters/Uniforms/Pants_US_DBDU.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{06905471CA07312C}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_rifleman_soviet_mixed_AT.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{671AB184A28AACAC}" {
+     PrefabsToSpawn + {
+      "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{671AB18420288E6B}" {
+     TargetStorage "Pants/Pants_US_DBDU.et"
+    }
+    ItemsInitConfigurationItem "{671AFB6C0C6A1B40}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+     PrefabsToSpawn {
+      "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{671AFB632A24CD94}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman_soviet_mixed_AT.et/MagPouch/Pouch_Soviet_30rnd_AK74.et"
+     PrefabsToSpawn {
+      "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{671AFB632A24CDA3}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman_soviet_mixed_AT.et/MagPouch2/Vest_SovietHarness_GrenadePouch.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{671AFB632A24CDA5}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman_soviet_mixed_AT.et/Bayonet/Vest_SovietHarness_MedicalPouch.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

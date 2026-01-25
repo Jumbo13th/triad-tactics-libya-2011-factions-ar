@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "NtcBLUFOR"
+   }
+  }
+  SCR_FactionAffiliationComponent "{671AB1877B717DA4}" {
+   "faction affiliation" "NtcBLUFOR"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{1AF0CAFF4A245763}Prefabs/Characters/Heads/Head_White_02_Libyan.et"
+     Body "{19901FDD7FC5EE3B}Prefabs/Characters/Basebody/CharacterBasebody_Libyan.et"
+    }
+   }
+  }
+ }
+}

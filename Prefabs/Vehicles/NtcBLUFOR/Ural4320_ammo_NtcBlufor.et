@@ -1,0 +1,120 @@
+Vehicle : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "NtcBLUFOR"
+    m_aAutoLabels {
+     FACTION_NTC_BLUFOR SIZE_M VEHICLE_TRUCK
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{671F61C3C692A800}" {
+     SlotTemplate InventoryStorageSlot AkBallMagazines {
+      Prefab "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et"
+     }
+     NumSlots 200
+    }
+    MultiSlotConfiguration "{671F61C3C692A854}" {
+     SlotTemplate InventoryStorageSlot Ak5TracerMagazines {
+      Prefab "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et"
+     }
+     NumSlots 200
+    }
+    MultiSlotConfiguration "{671F61C3C692A857}" {
+     SlotTemplate InventoryStorageSlot AkTracerMagazines {
+      Prefab "{D7D38B4E269417F8}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Tracer.et"
+     }
+     NumSlots 200
+    }
+    MultiSlotConfiguration "{671F61C3C692A859}" {
+     SlotTemplate InventoryStorageSlot Pg7VlRockets {
+      Prefab "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{671F61C3C692DA11}" {
+     SlotTemplate InventoryStorageSlot Vog25Grenades {
+      Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+     NumSlots 200
+    }
+    MultiSlotConfiguration "{671F61C3C692DA10}" {
+     SlotTemplate InventoryStorageSlot Pk4Ball1TracerBoxes {
+      Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{671F61C3C692DA13}" {
+     SlotTemplate InventoryStorageSlot Pk100BallBoxes {
+      Prefab "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{671F61C3C692DA12}" {
+     SlotTemplate InventoryStorageSlot Pk100TracerBoxes {
+      Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{671F61C3C692DA15}" {
+     SlotTemplate InventoryStorageSlot RpkBallMagazines {
+      Prefab "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{671F61C3C692D20C}" {
+     SlotTemplate InventoryStorageSlot Rpk5TracerMagazines {
+      Prefab "{50083D7DF1F318CA}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Last_5Tracer.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{671F61C3C692D20D}" {
+     SlotTemplate InventoryStorageSlot RpkTracerMagazines {
+      Prefab "{BCBD3E254B988F87}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Tracer.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{671F61C3C692D20E}" {
+     SlotTemplate InventoryStorageSlot SvdLpsMagazines {
+      Prefab "{77595CB9F596E6AC}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_LPS.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{671F61C3C692D20F}" {
+     SlotTemplate InventoryStorageSlot SvdTracerMagazines {
+      Prefab "{4A3649DFF8A3F0E3}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Tracer.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{671F61C3C692D3E2}" {
+     SlotTemplate InventoryStorageSlot Rpg22Launchers {
+      Prefab "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+     }
+     NumSlots 30
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "NtcBLUFOR"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Flag {
+     Offset -0.8189 2.3215 0.8724
+     Prefab "{A2C50F7E3258B511}Prefabs/Structures/Military/Flags/FlagPole/Flag_Small_NtcBLUFOR.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+    EntitySlotInfo Rod {
+     Offset -0.8189 2.3215 0.8724
+     Prefab "{C13993E540367BA4}Prefabs/Structures/Military/Bunkers/AircraftShelter_E_01/AircraftShelter_E_01_lightning_rod.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+   }
+  }
+ }
+}

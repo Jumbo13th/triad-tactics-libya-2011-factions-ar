@@ -1,0 +1,11 @@
+SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "56B2B4776E6E4499"
+ Factions {
+  SCR_Faction "{671D5CE6680FA105}" : "{D1F039B1AEBA9808}Configs/Factions/JamahiriyaOPFOR.conf" {
+   m_bIsPlayable 0
+  }
+  SCR_Faction "{671D5CE67F8F2595}" : "{174272C912C7C57F}Configs/Factions/NtcBLUFOR.conf" {
+   m_bIsPlayable 0
+  }
+ }
+}

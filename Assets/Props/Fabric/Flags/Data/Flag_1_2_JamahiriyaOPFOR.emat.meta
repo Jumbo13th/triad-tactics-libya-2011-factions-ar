@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{20093B5D59FD4BCA}Assets/Props/Fabric/Flags/Data/Flag_1_2_JamahiriyaOPFOR.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

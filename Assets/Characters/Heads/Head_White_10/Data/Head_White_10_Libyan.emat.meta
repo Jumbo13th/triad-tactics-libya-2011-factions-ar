@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A49DE4E328B85DDF}Assets/Characters/Heads/Head_White_10/Data/Head_White_10_Libyan.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

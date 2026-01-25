@@ -1,0 +1,23 @@
+MatPBRBasic {
+ Color 0 0 0 1
+ DiffuseIBL 0.527 0.527 0.527 1
+ Diffuse 0.117 0.117 0.117 1
+ Cull none
+ Sort translucent
+ SortBias 2
+ SpecularMul 0.09
+ BlendMode AlphaBlend
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ MetalnessScale 0
+ AOScale 0.722
+ DielectricReflectance 0.05
+ OpacityMap "{807A205379A40278}Assets/Characters/Heads/Eyes/Eyebrows/Head_Eyebrows_A.edds"
+ NMOMap "{96E14A6D130FBA60}Assets/Characters/Heads/Eyes/Eyebrows/Head_Eyebrows_01_NMO.edds"
+ Refs {
+  "AlphaTest"
+  "SCR_ChimeraCharacter.m_fFaceAlphaTest"
+  "AlphaMul"
+  "SCR_ChimeraCharacter.m_fFaceAlphaTest"
+ }
+}

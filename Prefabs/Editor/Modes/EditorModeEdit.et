@@ -1,0 +1,23 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{671D5CE9DC6A0B94}" : "{D74E43DF0FF851EF}Configs/Editor/PlaceableEntities/Systems/Systems_Lybian.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{671E0897D9AD78C5}" : "{E085532FFE13E410}Configs/Factions/Characters_JamahiriyaOPFOR.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{671E0897D7DA006B}" : "{BA3E20BF9F359539}Configs/Factions/Characters_NtcBLUFOR.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{671E0897D4C41233}" : "{4185F0EC646F7B4F}Configs/Factions/Groups_JamahiriyaOPFOR.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{671E0897D2A07B90}" : "{F8C29359927E3A04}Configs/Factions/Groups_NtcBLUFOR.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{671F61CCF31A10EC}" : "{23488F7AFBD0B5B0}Configs/Factions/Vehicles_JamahiriyaOPFOR.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{671F61CCF2FAF945}" : "{93B3727103B70B20}Configs/Factions/Vehicles_NtcBLUFOR.conf" {
+    }
+   }
+  }
+ }
+}

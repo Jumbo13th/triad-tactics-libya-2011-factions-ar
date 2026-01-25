@@ -1,0 +1,51 @@
+GenericEntity : "{541D161EFAF67003}Prefabs/Props/Military/Arsenal/AmmoBoxes/AmmoBoxArsenal_Explosives_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  GameHierarchyComponent "{672104031502AF1C}" {
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{26602B855125635D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Explosives_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+   Enabled 0
+   m_eSupportedArsenalItemTypes MORTARS
+   m_eArsenalSaveType SAVING_DISABLED
+  }
+  SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+   Enabled 0
+   "faction affiliation" "US"
+  }
+  SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+   Enabled 0
+   m_aConsumers {
+    SCR_ResourceConsumerServicePoint "{5E5ABDF28A4FEC1F}" {
+     m_fResourceRange 30
+    }
+   }
+  }
+  SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+   Enabled 0
+  }
+  UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{58A17A346E386320}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{599E60F5A7F31EE8}" {
+      CameraDistanceToItem 1
+     }
+    }
+   }
+  }
+  SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 0
+  }
+  Hierarchy "{67210A0E8DE3D4D1}" {
+  }
+ }
+}

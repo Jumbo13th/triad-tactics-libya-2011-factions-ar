@@ -1,0 +1,15 @@
+GenericEntity : "{AE09DA7896F9DB37}Prefabs/Props/Fabric/Flags/Flag_1_2.et" {
+ ID "50E2C85E7DD38DD0"
+ components {
+  MeshObject "{52AE82368499B365}" {
+   Materials {
+    MaterialAssignClass "{6720EBA9600558A8}" {
+     SourceMaterial "Flag_1_2"
+     AssignedMaterial "{0B466250274D5E00}Assets/Props/Fabric/Flags/Data/Flag_1_2_RedCrescent.emat"
+    }
+   }
+  }
+ }
+ coords -0.036 1.291 -0.006
+ scale 0.5
+}

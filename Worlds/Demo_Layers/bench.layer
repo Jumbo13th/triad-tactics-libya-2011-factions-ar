@@ -1,0 +1,171 @@
+$grp Vehicle : "{00F7ACA22D68E815}Prefabs/Vehicles/NtcBLUFOR/3Series_Libyan_M2HB_Variant_2.et" {
+ _Series_Libyan_M2HB_Variant_1 {
+  coords 122.67 0 122.848
+ }
+ _Series_Libyan_M2HB_Variant_2 {
+  coords 119.938 0 122.801
+ }
+ _Series_Libyan_M2HB_Variant_3 {
+  coords 117.442 0 122.867
+ }
+}
+SCR_ChimeraCharacter : "{01D1376503155548}Prefabs/Characters/Factions/OPFOR/Jamahiriya_Army/Character_JamahiriyaOPFOR_AAT.et" {
+ coords 145.708 0 114.16
+}
+SCR_ChimeraCharacter : "{211DC9CAA8D995F4}Prefabs/Characters/Factions/OPFOR/Jamahiriya_Army/Character_JamahiriyaOPFOR_Medic.et" {
+ coords 140.32 0 115.717
+ angles 0 30.754 0
+}
+SCR_ChimeraCharacter : "{2AC663B318E624DE}Prefabs/Characters/Factions/OPFOR/Jamahiriya_Army/Character_JamahiriyaOPFOR_SL.et" {
+ coords 147.426 0 114.376
+}
+$grp Tank : "{3EB62AE53E4AF63F}Prefabs/Vehicles/NtcBLUFOR/M113A2_APC.et" {
+ M113A2_APC2 {
+  coords 135.589 0 123.153
+ }
+ M113A2_APC3 {
+  coords 131.43 0 122.907
+ }
+}
+SCR_ChimeraCharacter : "{3ED613C3E928A51B}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_Rifleman2.et" {
+ coords 149.829 0 114.864
+}
+SCR_ChimeraCharacter : "{463683C34ED2392C}Prefabs/Characters/Factions/OPFOR/Jamahiriya_Army/Character_JamahiriyaOPFOR_LMG.et" {
+ coords 141.798 0 114.867
+}
+SCR_ChimeraCharacter : "{5106BF9F8399C349}Prefabs/Characters/Factions/OPFOR/Jamahiriya_Army/Character_JamahiriyaOPFOR_HMG.et" {
+ coords 144.127 0 114.223
+}
+SCR_ChimeraCharacter : "{6B45895C35F7BCED}Prefabs/Characters/Factions/OPFOR/Jamahiriya_Army/Character_JamahiriyaOPFOR_Grenadier.et" {
+ coords 142.438 0 114.507
+}
+SCR_ChimeraCharacter : "{7165375344E0F689}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_AT.et" {
+ coords 154.078 0 114.912
+}
+$grp Vehicle : "{75065E59D72E6F5F}Prefabs/Vehicles/JamahiriyaOPFOR/Ural4320_ZU23_Sand.et" {
+ Ural4320_ZU23_Sand1 {
+  coords 152.249 0 124.047
+ }
+ Ural4320_ZU23_Sand2 {
+  coords 155.851 0 124.554
+ }
+}
+$grp Vehicle : "{7751D85554E40A97}Prefabs/Vehicles/NtcBLUFOR/3Series_ZU.et" {
+ _Series_ZU1 {
+  coords 125.472 0 123.526
+ }
+ _Series_ZU2 {
+  coords 128.354 0 123.388
+ }
+}
+SCR_ChimeraCharacter : "{9BCA6AEABB417879}Prefabs/Characters/Factions/OPFOR/Jamahiriya_Army/Character_JamahiriyaOPFOR_BaseLoadout.et" {
+ coords 143.511 0 111.7
+}
+SCR_ChimeraCharacter : "{9FE6FB6D53EB9891}Prefabs/Characters/Factions/OPFOR/Jamahiriya_Army/Character_JamahiriyaOPFOR_AT.et" {
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{671AFB6EC9819A4B}" {
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+   }
+  }
+ }
+ coords 145.033 0 114.314
+}
+Vehicle Ural4320_ammo_NtcBlufor1 : "{A86E788EF1809C3A}Prefabs/Vehicles/NtcBLUFOR/Ural4320_ammo_NtcBlufor.et" {
+ coords 139.867 0 123.62
+}
+SCR_ChimeraCharacter : "{B82BEEC3C1D50037}Prefabs/Characters/Factions/OPFOR/Jamahiriya_Army/Character_JamahiriyaOPFOR_Marksman.et" {
+ coords 141.043 0 115.264
+}
+SCR_ChimeraCharacter : "{BA40BD8C5545FEB2}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_Marksman.et" {
+ coords 157.019 0 116.035
+}
+SCR_ChimeraCharacter : "{BD496B2681CDE218}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_Grenadier2.et" {
+ coords 155.97 0 115.738
+}
+SCR_ChimeraCharacter : "{C445AF8D0FED4AC6}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_SL.et" {
+ coords 151.981 0 114.665
+}
+Vehicle Ural4320_ammo_JamahiriyaOPFOR1 : "{D016486BFF4E4C24}Prefabs/Vehicles/JamahiriyaOPFOR/Ural4320_ammo_JamahiriyaOPFOR.et" {
+ coords 148.236 0 123.919
+}
+SCR_ChimeraCharacter : "{D11D5FC63D096D36}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_Grenadier1.et" {
+ coords 155.178 0 115.415
+}
+SCR_ChimeraCharacter : "{DB4A5F3AE5CD3270}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_Rifleman3.et" {
+ coords 151.009 0 114.39
+}
+SCR_ChimeraCharacter : "{E8FB40DFDDC533A5}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_Rifleman1.et" {
+ coords 148.738 0 114.401
+}
+SCR_ChimeraCharacter : "{EA9013904955CD20}Prefabs/Characters/Factions/OPFOR/Jamahiriya_Army/Character_JamahiriyaOPFOR_Rifleman.et" {
+ coords 146.573 0 114.12
+}
+$grp Vehicle : "{EDC5374B5E649199}Prefabs/Vehicles/JamahiriyaOPFOR/S1203_cargo_beige_ambulance.et" {
+ S1203_cargo_beige_ambulance1 {
+  coords 158.994 0 124.357
+ }
+ S1203_cargo_beige_ambulance2 {
+  coords 161.61 0 124.409
+ }
+}
+$grp Vehicle : "{EE315F09F08ACB27}Prefabs/Vehicles/NtcBLUFOR/S1203_cargo_white_ambulance.et" {
+ S1203_cargo_white_ambulance1 {
+  coords 114.677 0 122.676
+ }
+ S1203_cargo_white_ambulance2 {
+  coords 111.97 0 122.781
+ }
+}
+SCR_ChimeraCharacter : "{F0B19FED6F625B51}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_Medic.et" {
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{671B334FE6ACC67B}" {
+     PrefabsToSpawn {
+      "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+      "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+      "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+      "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+      "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+      "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+      "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+      "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+    }
+   }
+  }
+ }
+ coords 157.675 0 116.312
+}
+SCR_ChimeraCharacter : "{FBC01AF08CEAB1D1}Prefabs/Characters/Factions/OPFOR/Jamahiriya_Army/Character_JamahiriyaOPFOR_MGA.et" {
+ coords 143.283 0 114.425
+}
+SCR_ChimeraCharacter : "{FBDA80885326FC36}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_HMG.et" {
+ coords 152.961 0 114.795
+}
+SCR_ChimeraCharacter : "{FDA331F8CFA63618}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_BaseLoadout.et" {
+ coords 142.469 0 111.627
+}

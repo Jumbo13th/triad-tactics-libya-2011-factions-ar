@@ -1,0 +1,9 @@
+GenericEntity : "{533AC2E8A0F5272A}Prefabs/Structures/BuildingParts/BuildingParts_Base.et" {
+ ID "5111E74D4E7A8DB6"
+ components {
+  MeshObject "{5111E74D5E891458}" {
+   Object "{5F1A9D077384C641}Assets/Structures/Military/Bunkers/AircraftShelter_E_01/AircraftShelter_E_01_lighting_rod.xob"
+  }
+ }
+ coords 0.037 -1.088 0
+}

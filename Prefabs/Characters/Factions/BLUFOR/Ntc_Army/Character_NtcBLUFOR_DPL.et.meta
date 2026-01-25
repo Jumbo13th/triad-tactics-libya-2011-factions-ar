@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F32A2CC3698954FD}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_DPL.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

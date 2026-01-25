@@ -1,0 +1,34 @@
+GenericEntity : "{01BD86DA804B1E37}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  SCR_EquipmentStorageComponent "{56C48B5965A39F45}" {
+   Attributes SCR_ItemAttributeCollection "{671ADBDFBF7E933A}" {
+    ItemDisplayName UIInfo "{671ADBDFBF7E9324}" {
+     Name "#AR-LBSComponent_Suspenders_US_Name"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{671ADBDFBF7E9329}" {
+     Weight 0.1
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{671ADBDFBF7E932B}" {
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  BaseLoadoutClothComponent "{5174C3E615D4689F}" {
+   WornModel "{581B278A231F4520}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_2.xob"
+   WornMaterialsOverride {
+    "{82E4694F78C4C0DC}Assets/Characters/Vests/Vest_ALICE/Data/vest_ALICE_no_US.emat"
+   }
+   ItemMaterialsOverride {
+    "{82E4694F78C4C0DC}Assets/Characters/Vests/Vest_ALICE/Data/vest_ALICE_no_US.emat"
+   }
+   DeflatedModel "{2ED08C679E40203A}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_Suspenders_2_Inflated.xob"
+   AreaTypeWhenModelChange {
+    LoadoutArmoredVestSlotArea "{671ADBDFBF7E932E}" {
+    }
+   }
+  }
+ }
+}

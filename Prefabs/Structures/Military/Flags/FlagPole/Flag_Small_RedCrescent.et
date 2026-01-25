@@ -1,0 +1,11 @@
+GenericEntity {
+ ID "6720EBA90E852FF6"
+ coords -0.002 0 0
+ {
+  GenericEntity : "{B142350C4D326A71}Prefabs/Props/Fabric/Flags/Flag_1_2_Medical.et" {
+   ID "6720EBAAE165092E"
+   coords -0.036 1.291 -0.006
+   scale 0.5
+  }
+ }
+}

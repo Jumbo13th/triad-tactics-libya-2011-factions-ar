@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{00F7ACA22D68E815}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_Libyan_M2HB_Variant_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

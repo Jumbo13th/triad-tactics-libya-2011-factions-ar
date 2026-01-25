@@ -1,0 +1,163 @@
+Tank : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  RigidBody "{51DAA09FECF52BBF}" {
+   Mass 11400
+   CenterOfMass 0 1 0.3
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#M113-EditableEntity_M113A3_APC_Name"
+    m_Image "UI/Textures/EditorPreviews/Vehicles/Tracked/M113/M113A3_APC.edds"
+    m_sFaction "NtcBLUFOR"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     FACTION_NTC_BLUFOR SIZE_M VEHICLE_APC
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 800
+     }
+    }
+    m_aOccupantFillCompartmentTypes +{
+    }
+   }
+  }
+  SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+   m_fFuelConsumption 51
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     FuelType Diesel
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E78B2EECD014A90}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5E78B2EECD014A87}" {
+     NumSlots 15
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "NtcBLUFOR"
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{5E78B2EECD01E204}" {
+    Engine Engine Engine : "{9952C5CD09DB0411}Prefabs/Vehicles/Core/Configs/Engines/GM-6V53.conf" {
+     Output "Clutch"
+    }
+    Gearbox Gearbox Gearbox : "{23D5904C631DCB21}Prefabs/Vehicles/Core/Configs/Transmissions/Transmission_TX-100-2.conf" {
+     Output "Diff_A"
+    }
+    Axles {
+     Axle "{5E78B2EECD01E215}" {
+      Suspension Suspension "{4D8B26DF2B10AE05}" : "{694569F2507D8C8C}Prefabs/Vehicles/Tracked/M113/Configs/M113A3_Suspension_Hard.conf" {
+       MaxSteeringAngle 20
+      }
+     }
+     Axle "{5E78B2EECD01E217}" {
+      Suspension Suspension "{5B3A8D44B1452858}" : "{694569F2507D8C8C}Prefabs/Vehicles/Tracked/M113/Configs/M113A3_Suspension_Hard.conf" {
+      }
+     }
+     Axle "{5E78B2EECD01E229}" {
+      Suspension Suspension "{5B3A8D44BDC38472}" : "{A6F0891B98463860}Prefabs/Vehicles/Tracked/M113/Configs/M113A3_Suspension_Soft.conf" {
+      }
+     }
+     Axle "{5E78B2EECD01E228}" {
+      Suspension Suspension "{5B3A8D44B986A4EB}" : "{A6F0891B98463860}Prefabs/Vehicles/Tracked/M113/Configs/M113A3_Suspension_Soft.conf" {
+      }
+     }
+     Axle "{5E78B2EECD01E22B}" {
+      Suspension Suspension "{5B3A8D448659D92F}" : "{694569F2507D8C8C}Prefabs/Vehicles/Tracked/M113/Configs/M113A3_Suspension_Hard.conf" {
+       MaxSteeringAngle -20
+      }
+     }
+    }
+   }
+  }
+  BaseVehicleNodeComponent "{20FB66C5B2237133}" {
+   components {
+    SCR_BaseHUDComponent "{37C2676694790BC7}" {
+     InfoDisplays {
+      SCR_InfoDisplay "{50E6E6F81354B90F}" {
+       InfoDisplays {
+        SCR_AnalogGauge "{50E6E9C42E916085}" {
+         m_fValueMax 4000
+        }
+       }
+      }
+     }
+    }
+    SCR_CarControllerComponent "{20FB66C5BC92275B}" {
+     ThrottleCurve {
+      2800 0.9 2900 0.5 3000 0
+     }
+     ReverseCurve {
+      1400 0.9 1500 0.5 1600 0
+     }
+     ThrottleTurbo 0.1
+     ClutchUncoupleTime 0.2
+     ClutchFeedbackRpm 1050
+     ClutchUncoupleRpm 900
+     ClutchCoupleRpm 1350
+     UpShiftFactor 2.2
+     UpShiftRpm 1250
+     DownShiftFactor 1.8
+     DownShiftRpm 1050
+     TurboShiftFactor 1
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{75CD41C2C73548BA}Prefabs/Vehicles/NtcBLUFOR/VehParts/Turrets/M113_gun_mount_M2HB_Armored.et"
+    }
+    RegisteringComponentSlotInfo TrimVane {
+    }
+    RegisteringComponentSlotInfo TrimVaneArmor {
+     PivotID "v_trim_vane_01"
+     Prefab "{33D14E23C5927BEA}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_Trim_Vane_Armor.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TrackCover_01 {
+     Prefab "{CFFE6088EE25C475}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_01.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TrackCover_02 {
+     Prefab "{A3AA546852E14B5B}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_02.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TrackCover_03 {
+     Prefab "{463618915E04DC30}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_03.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TrackCover_04 {
+     Prefab "{7B023DA92B685507}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_04.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TrackCover_05 {
+     Prefab "{9E9E7150278DC26C}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_05.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TrackCover_06 {
+     Prefab "{F2CA45B09B494D42}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_06.et"
+     RegisterDamage 1
+    }
+    EntitySlotInfo Rod {
+     Offset -1.2021 1.429 -2.027
+     Prefab "{C13993E540367BA4}Prefabs/Structures/Military/Bunkers/AircraftShelter_E_01/AircraftShelter_E_01_lightning_rod.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+    EntitySlotInfo Flag {
+     Offset -1.2021 1.429 -2.027
+     Prefab "{A2C50F7E3258B511}Prefabs/Structures/Military/Flags/FlagPole/Flag_Small_NtcBLUFOR.et"
+    }
+   }
+  }
+ }
+}

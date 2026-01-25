@@ -1,0 +1,64 @@
+SCR_ChimeraCharacter : "{FDA331F8CFA63618}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#Ntc-Heavy_Machine_Gunner"
+    m_Image "{414102CBE3B7D134}UI/Textures/EditorPreviews/Auto/Character_NtcBLUFOR_HMG.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     ENTITYTYPE_CHARACTER SIZE_M ROLE_MACHINEGUNNER FACTION_NTC_BLUFOR
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{A89BC9D55FFB4CD8}Prefabs/Weapons/MachineGuns/PKM/MG_PKM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D5285CF5457FE6F2}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_DBDU.et"
+    }
+    LoadoutSlotInfo Jacket {
+    }
+    LoadoutSlotInfo ArmoredVest {
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{06B68C58B72EAAC6}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{67F81358378C6046}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_rifleman_soviet_mixed_HMG.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{671B33442B88EA2B}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman_soviet_mixed_HMG.et/MagPouch/Pouch_Soviet_100rnd_PKM.et"
+     PrefabsToSpawn {
+      "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{671B33442B88EA52}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman_soviet_mixed_HMG.et/MagPouch2/Vest_SovietHarness_GrenadePouch.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{671B33442B88EA55}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman_soviet_mixed_HMG.et/Buttpack/Vest_ALICE_buttpack_no_US.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{671B3348AA5F32EE}" {
+     TargetStorage "Back/Backpack_ALICE_Medium.et"
+     PrefabsToSpawn {
+      "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

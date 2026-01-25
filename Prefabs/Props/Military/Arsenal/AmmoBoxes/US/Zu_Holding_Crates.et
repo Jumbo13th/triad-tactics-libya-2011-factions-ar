@@ -1,0 +1,40 @@
+GenericEntity : "{377EB906F591E4BA}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Weapons_US.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  GameHierarchyComponent "{67210A0ECCC8C8BB}" {
+  }
+  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+   Enabled 0
+   m_bArsenalEnabled 0
+  }
+  SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+   Enabled 0
+   "faction affiliation" "NtcBLUFOR"
+  }
+  SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+   Enabled 0
+  }
+  SCR_UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+   Enabled 0
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 1000000
+   MaxItemSize 40 40 40
+   m_fMaxWeight 4500
+  }
+  SCR_InventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 0
+   additionalActions {
+    SCR_OpenStorageAction "{5476DE57AA50402F}" {
+     UIInfo UIInfo "{52E6EC759A11C684}" {
+      Name "#AR-Inventory_OpenStorage"
+     }
+    }
+   }
+  }
+  Hierarchy "{67210A0EABD15AF2}" {
+  }
+ }
+}

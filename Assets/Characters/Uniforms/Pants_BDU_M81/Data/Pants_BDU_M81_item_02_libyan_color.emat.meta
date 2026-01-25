@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{99361D0B604F866A}Assets/Characters/Uniforms/Pants_BDU_M81/Data/Pants_BDU_M81_item_02_libyan_color.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

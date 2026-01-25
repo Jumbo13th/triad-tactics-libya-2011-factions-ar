@@ -1,0 +1,25 @@
+GameEntity : "{C1F80EE178D948D6}Prefabs/Characters/Heads/Head_White_08.et" {
+ ID "529C89342C390093"
+ components {
+  MeshObject "{529C8934211B4893}" {
+   Materials {
+    MaterialAssignClass "{671D217E95535FAB}" {
+     SourceMaterial "Head_White_08"
+     AssignedMaterial "{5D3E0CF700C7CE9F}Assets/Characters/Heads/Head_White_08/Data/Head_White_08_Libyan.emat"
+    }
+    MaterialAssignClass "{671D217E95535F5B}" {
+     SourceMaterial "Head_White_08_wound"
+     AssignedMaterial "{5089DD55C5DBE351}Assets/Characters/Heads/Head_White_08/Data/Head_White_08_wound_Libyan.emat"
+    }
+    MaterialAssignClass "{671D217E95535F56}" {
+     SourceMaterial "Neck"
+     AssignedMaterial "{54BA9478B00F4720}Assets/Characters/Heads/Head_White_08/Data/Head_White_08_neck_Libyan.emat"
+    }
+    MaterialAssignClass "{671D217E95535F52}" {
+     SourceMaterial "Neck_wound"
+     AssignedMaterial "{F5B9B197F0BD6135}Assets/Characters/Heads/Head_White_08/Data/Head_White_08_wound_neck_Libyan.emat"
+    }
+   }
+  }
+ }
+}

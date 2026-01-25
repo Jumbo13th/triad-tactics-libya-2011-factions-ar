@@ -1,0 +1,78 @@
+Vehicle : "{D7663936ABF75FB1}Prefabs/Vehicles/Wheeled/S1203/S1203_cargo_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6720EBA92F5B5045}" {
+     SourceMaterial "S1203_body"
+     AssignedMaterial "{45598D558C15A300}Assets/Vehicles/Wheeled/S1203/Data/S1203_body_white.emat"
+    }
+    MaterialAssignClass "{6720EBA92F5B504C}" {
+     SourceMaterial "S1203_body_int_E3C99AF8C813F493"
+     AssignedMaterial "{4727594BA2961BEB}Assets/Vehicles/Wheeled/S1203/Data/S1203_body_white_int.emat"
+    }
+    MaterialAssignClass "{6720EBA92F5B504F}" {
+     SourceMaterial "S1203_interior"
+     AssignedMaterial "{E5877D698A07DC76}Assets/Vehicles/Wheeled/S1203/Data/S1203_interior_white.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{0F1617D62851D0D8}UI/Textures/EditorPreviews/Vehicles/Wheeled/S1203/S1203_white.edds"
+    m_sFaction "NtcBLUFOR"
+    m_aAuthoredLabels {
+     ENTITYTYPE_VEHICLE FACTION_NTC_BLUFOR VEHICLE_CAR TRAIT_PASSENGERS_SMALL TRAIT_SUPPLYSTORAGE_LARGE TRAIT_MEDICAL
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{607097C321D5128E}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6072948F4DEC1046}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{6720EBAB248064D6}" {
+     SlotTemplate InventoryStorageSlot FieldDressings {
+      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+     NumSlots 200
+    }
+    MultiSlotConfiguration "{6720EBAB328C617D}" {
+     SlotTemplate InventoryStorageSlot MorphineInjectors {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 200
+    }
+    MultiSlotConfiguration "{6720EBAB18B9CABD}" {
+     SlotTemplate InventoryStorageSlot SalineBags {
+      Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{6720EBA4E848EDAC}" {
+     SlotTemplate InventoryStorageSlot Tourniquets {
+      Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+     NumSlots 200
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "NtcBLUFOR"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Rod {
+     Offset -0.7943 1.1874 0.6726
+     Prefab "{C13993E540367BA4}Prefabs/Structures/Military/Bunkers/AircraftShelter_E_01/AircraftShelter_E_01_lightning_rod.et"
+     DisablePhysicsInteraction 1
+    }
+    EntitySlotInfo Flag {
+     Offset -0.7943 1.1874 0.6726
+     Prefab "{F27F11E0E615088B}Prefabs/Structures/Military/Flags/FlagPole/Flag_Small_RedCrescent.et"
+     DisablePhysicsInteraction 1
+    }
+   }
+  }
+ }
+}

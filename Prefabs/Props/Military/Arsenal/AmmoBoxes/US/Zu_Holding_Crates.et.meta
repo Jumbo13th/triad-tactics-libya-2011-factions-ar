@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{587076AAD5B4A6E7}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/CO_DropOffCrate_Weapons_US.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

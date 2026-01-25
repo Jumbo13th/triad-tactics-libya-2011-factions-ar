@@ -1,0 +1,22 @@
+SCR_AIGroup : "{E377B9284D8E0C88}Prefabs/Groups/BLUFOR/Group_NtcBLUFOR_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#Libyan-Platoon_Command"
+    m_Image "{F32041E1110057D2}UI/Textures/EditorPreviews/Auto/Group_NtcBLUFOR_RifleSquad.edds"
+    m_aAuthoredLabels {
+     FACTION_NTC_BLUFOR ENTITYTYPE_GROUP SERVICE_HQ ROLE_LEADER GROUPSIZE_SMALL
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity BLUFOR
+     m_Icons 65537
+     m_Amplifier SECTION
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{5D5B1614120A7B56}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_PL.et" "{F32A2CC3698954FD}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_DPL.et" "{F0B19FED6F625B51}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_Medic.et"
+ }
+}

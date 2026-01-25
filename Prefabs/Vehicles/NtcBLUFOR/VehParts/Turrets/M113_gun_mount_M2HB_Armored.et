@@ -1,0 +1,19 @@
+Turret : "{E763BDED1EF39B41}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_gun_mount_M2HB.et" {
+ ID "51ACD0965653D003"
+ components {
+  SlotManagerComponent "{5E825E019592F84B}" {
+   Slots {
+    RegisteringComponentSlotInfo Armor {
+     Enabled 1
+    }
+    RegisteringComponentSlotInfo Turret_Armor {
+     PivotID "v_turret_01"
+     Offset -0.0044 0.4636 0.7821
+     Prefab "{98480164906024E3}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_Turret_Gun_Armor.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,14 @@
+GenericEntity : "{AE09DA7896F9DB37}Prefabs/Props/Fabric/Flags/Flag_1_2.et" {
+ ID "50E2C85E7DD38DD0"
+ components {
+  MeshObject "{52AE82368499B365}" {
+   Materials {
+    MaterialAssignClass "{671F39BAB8F97FA7}" {
+     SourceMaterial "Flag_1_2"
+     AssignedMaterial "{20093B5D59FD4BCA}Assets/Props/Fabric/Flags/Data/Flag_1_2_JamahiriyaOPFOR.emat"
+    }
+   }
+  }
+ }
+ coords 0.096 4.283 -1.335
+}

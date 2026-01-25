@@ -1,0 +1,48 @@
+$grp Vehicle : "{00F7ACA22D68E815}Prefabs/Vehicles/NtcBLUFOR/3Series_Libyan_M2HB_Variant_2.et" {
+ _Series_Libyan_M2HB_Variant_1 {
+  coords 1480.616 5 2307.024
+  angles 0 -154.822 0
+ }
+ _Series_Libyan_M2HB_Variant_2 {
+  coords 1477.269 5 2307.172
+  angles 0 -155.766 0
+ }
+ _Series_Libyan_M2HB_Variant_3 {
+  coords 1473.871 5 2306.876
+  angles 0 -157.54 0
+ }
+}
+$grp Tank : "{3EB62AE53E4AF63F}Prefabs/Vehicles/NtcBLUFOR/M113A2_APC.et" {
+ M113A2_APC1 {
+  coords 1491.51 5 2300.219
+  angles 0 -90 0
+ }
+ M113A2_APC2 {
+  coords 1491.645 5 2295.19
+  angles 0 -90 0
+ }
+}
+$grp Vehicle : "{7751D85554E40A97}Prefabs/Vehicles/NtcBLUFOR/3Series_ZU.et" {
+ _Series_ZU1 {
+  coords 1488.633 5 2306.948
+  angles 0 -155.871 0
+ }
+ _Series_ZU2 {
+  coords 1484.533 5 2306.739
+  angles 0 -155.731 0
+ }
+}
+Vehicle Ural4320_ammo_NtcBlufor1 : "{A86E788EF1809C3A}Prefabs/Vehicles/NtcBLUFOR/Ural4320_ammo_NtcBlufor.et" {
+ coords 1479.759 5 2292.78
+ angles 0 -89.207 0
+}
+$grp Vehicle : "{EE315F09F08ACB27}Prefabs/Vehicles/NtcBLUFOR/S1203_cargo_white_ambulance.et" {
+ S1203_cargo_white_ambulance1 {
+  coords 1470.178 5 2307.458
+  angles 0 -156.911 0
+ }
+ S1203_cargo_white_ambulance2 {
+  coords 1466.398 5 2307.435
+  angles 0 -156.911 0
+ }
+}

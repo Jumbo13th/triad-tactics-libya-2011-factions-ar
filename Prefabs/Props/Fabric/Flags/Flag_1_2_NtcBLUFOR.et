@@ -1,0 +1,14 @@
+GenericEntity : "{AE09DA7896F9DB37}Prefabs/Props/Fabric/Flags/Flag_1_2.et" {
+ ID "50E2C85E7DD38DD0"
+ components {
+  MeshObject "{52AE82368499B365}" {
+   Materials {
+    MaterialAssignClass "{671F39A68AAB6D6F}" {
+     SourceMaterial "Flag_1_2"
+     AssignedMaterial "{558D34A9246A7D32}Assets/Props/Fabric/Flags/Data/Flag_1_2_NtcBLUFOR.emat"
+    }
+   }
+  }
+ }
+ coords 9.416 -4.926 -38.948
+}

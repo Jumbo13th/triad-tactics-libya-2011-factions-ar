@@ -1,0 +1,27 @@
+SCR_AIGroup : "{E377B9284D8E0C88}Prefabs/Groups/BLUFOR/Group_NtcBLUFOR_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#AR-Group_Squad"
+    Icon "{F32041E1110057D2}UI/Textures/EditorPreviews/Auto/Group_NtcBLUFOR_RifleSquad.edds"
+    m_Image "{F32041E1110057D2}UI/Textures/EditorPreviews/Auto/Group_NtcBLUFOR_RifleSquad.edds"
+    m_sFaction "NtcBLUFOR"
+    m_aAuthoredLabels + {
+     FACTION_NTC_BLUFOR GROUPTYPE_INFANTRY
+    }
+    m_aAutoLabels {
+     GROUPSIZE_LARGE
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity BLUFOR
+     m_Icons INFANTRY
+     m_Amplifier SQUAD
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{C445AF8D0FED4AC6}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_SL.et" "{D11D5FC63D096D36}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_Grenadier1.et" "{FBDA80885326FC36}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_HMG.et" "{DB4A5F3AE5CD3270}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_Rifleman3.et" "{3ED613C3E928A51B}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_Rifleman2.et" "{E8FB40DFDDC533A5}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_Rifleman1.et" "{BD496B2681CDE218}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_Grenadier2.et" "{7165375344E0F689}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_AT.et" "{7165375344E0F689}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_AT.et" "{BA40BD8C5545FEB2}Prefabs/Characters/Factions/BLUFOR/Ntc_Army/Character_NtcBLUFOR_Marksman.et"
+ }
+}
