@@ -1,5 +1,0 @@
-MatPBRBasic {
- CavityFromAO 1
- BCRMap "{194322A48C404E7A}Assets/Characters/Vests/Vest_ALICE/Data/Vest_ALICE_no_US_BCR.edds"
- NMOMap "{2168944135ACD901}Assets/Characters/Vests/Vest_ALICE/Data/Vest_ALICE_NMO.edds"
-}

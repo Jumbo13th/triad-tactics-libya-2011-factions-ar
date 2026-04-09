@@ -1,6 +1,0 @@
-MatPBRSkinProfile {
- Color 0.165 0.071 0 1
- BCRMap "{F6B257D1D1E0158F}Assets/Characters/Basebody/Data/Basebody_01_Male_Arms_wound_BCR.edds"
- NMOMap "{CE6AEC4308974711}Assets/Characters/Basebody/Data/Basebody_01_Male_Arms_wound_NMO.edds"
- SubsurfaceProfile "{615A5485E64FD13C}Assets/Characters/Basebody/Data/Subsurface_White.emat"
-}
