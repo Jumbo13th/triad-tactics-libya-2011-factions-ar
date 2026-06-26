@@ -15,6 +15,13 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{69B52157610332A9}" {
+   Id "Jamahiriya-Crewman"
+   Target_en_us "Crewman"
+   Modified 1773484703
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{671D217732912DD6}" {
    Id "Jamahiriya-Faction_UI_Name"
    Target_en_us "Jamahiriya Army"
@@ -75,6 +82,13 @@ StringTable {
    Id "Jamahiriya-Rifleman"
    Target_en_us "Rifleman"
    Modified 1729970317
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69B516070F61707F}" {
+   Id "Jamahiriya-Rifleman_AT"
+   Target_en_us "Rifleman AT"
+   Modified 1773477111
    Author "siwi1"
    LastChanged "siwi1"
   }
@@ -817,6 +831,13 @@ StringTable {
    Id "Libya-Territory_Zuwara"
    Target_en_us "Zuwara"
    Modified 1729970722
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69B52154FBA8CE40}" {
+   Id "Libyan-Crew"
+   Target_en_us "Crew"
+   Modified 1773484949
    Author "siwi1"
    LastChanged "siwi1"
   }

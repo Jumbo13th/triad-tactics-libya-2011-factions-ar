@@ -1,0 +1,94 @@
+Vehicle : "{57FE9BCA625CA0E3}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Recce_M2HB.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{65949A0452B0712D}" {
+     SourceMaterial "lr_3series_body"
+     AssignedMaterial "{3B5A1397CBFCED05}Assets/Vehicles/Wheeled/LR3Series/Data/NatoGreenBlack/lr_3series_body_natogreenblack_variant_2.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Land Rover M2 Guntruck"
+    m_sFaction "NtcBLUFOR"
+    m_aAutoLabels {
+     SIZE_M VEHICLE_CAR FACTION_NTC_BLUFOR
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{65949D89EAA4FFD2}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{65949D89E563927E}" {
+      m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{65949D89E5983036}" {
+      m_bEnabled 0
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+   MultiSlots {
+    MultiSlotConfiguration "{648B4DF41C28F112}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{669132EE1B4D07C0}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{6591064157247661}" {
+     SlotTemplate InventoryStorageSlot "{659106415076C478}" {
+      Prefab "{CC7F787C3ECF678F}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "JamahiriyaOPFOR"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo GunnerFrontRight {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo CamoNet_Front {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo CamoNet_Door_L {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo CamoNet_Door_R {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo CamoNet_Top {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo CamoNet_Tray {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo GunnerRear {
+     Offset 0 -0.0475 -0.2628
+    }
+    RegisteringComponentSlotInfo Ammo_01 {
+    }
+    RegisteringComponentSlotInfo Ammo_02 {
+    }
+    RegisteringComponentSlotInfo Ammo_03 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Ammo_04 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Ammo_08 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo BoxRight {
+     Offset 0.4808 1.2023 0.1055
+     Angles 6.781 0 0
+     Prefab "{8F70763AE8BFE381}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Mortar_US_Static.et"
+     DisablePhysicsInteraction 1
+    }
+   }
+  }
+ }
+}

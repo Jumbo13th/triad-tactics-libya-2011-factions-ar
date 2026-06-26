@@ -32,12 +32,14 @@ SCR_ChimeraCharacter : "{EA9013904955CD20}Prefabs/Characters/Factions/OPFOR/Jama
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{671AB184A28AACAC}" {
+    }
+    ItemsInitConfigurationItem "{671AB18420288E6B}" {
      TargetStorage "Jacket/Jacket_US_BDU_02.et"
     }
     ItemsInitConfigurationItem "{671AFB640A9CA70E}" {
      TargetStorage "Vest/Vest_ALICE_rifleman_soviet_mixed_LMG.et/MagPouch/Pouch_Soviet_45rnd_RPK74.et"
      PrefabsToSpawn {
-      "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{50083D7DF1F318CA}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Last_5Tracer.et"
+      "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{671AFB66E4F21EE2}" {
@@ -46,7 +48,7 @@ SCR_ChimeraCharacter : "{EA9013904955CD20}Prefabs/Characters/Factions/OPFOR/Jama
     ItemsInitConfigurationItem "{671AFB66CD355574}" {
      TargetStorage "Vest/Vest_ALICE_rifleman_soviet_mixed_LMG.et/Buttpack/Vest_ALICE_buttpack_no_US.et"
      PrefabsToSpawn {
-      "{50083D7DF1F318CA}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Last_5Tracer.et" "{BCBD3E254B988F87}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Tracer.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{BCBD3E254B988F87}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Tracer.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
     }
    }

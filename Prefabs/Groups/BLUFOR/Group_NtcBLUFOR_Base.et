@@ -7,6 +7,7 @@ SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     m_sFaction "NtcBLUFOR"
+    m_bUseUIInfoName 1
    }
   }
   SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {

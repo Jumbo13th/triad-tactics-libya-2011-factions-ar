@@ -31,16 +31,29 @@ SCR_ChimeraCharacter : "{EA9013904955CD20}Prefabs/Characters/Factions/OPFOR/Jama
     LoadoutSlotInfo Jacket {
      Prefab "{9CB400AED977501E}Prefabs/Characters/Uniforms/Jacket_US_DBDU.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{A0D715D7F8D0AE89}Prefabs/Items/Equipment/Radios/Jam_Radio_R107M.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{671AB184A28AACAC}" {
+    }
+    ItemsInitConfigurationItem "{671AB18420288E6B}" {
      TargetStorage "Jacket/Jacket_US_DBDU.et"
     }
+    ItemsInitConfigurationItem "{671AFB640A9CA70E}" {
+     PrefabsToSpawn +{
+     }
+    }
     ItemsInitConfigurationItem "{671AFB66CD355574}" {
-     PrefabsToSpawn + {
-      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{69B5160762AE1256}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman_soviet_mixed.et/Buttpack/Vest_ALICE_buttpack_no_US.et"
+     PrefabsToSpawn {
      }
     }
    }

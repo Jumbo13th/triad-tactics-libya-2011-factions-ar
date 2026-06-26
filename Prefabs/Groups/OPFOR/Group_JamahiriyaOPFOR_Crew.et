@@ -1,0 +1,23 @@
+SCR_AIGroup : "{194FA6FE855C53CA}Prefabs/Groups/OPFOR/Group_JamahiriyaOPFOR_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#Libyan-Crew"
+    m_Image "{6C1B8D20960590F4}UI/Textures/EditorPreviews/Auto/Group_JamahiriyaOPFOR_RifleSquad.edds"
+    m_aAuthoredLabels + {
+     GROUPSIZE_SMALL FACTION_JAMAHIRIYA_OPFOR
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity OPFOR
+     m_Icons 65537
+     m_Amplifier SECTION
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{02AA992B8E40095A}Prefabs/Characters/Factions/OPFOR/Jamahiriya_Army/Character_JamahiriyaOPFOR_Crewman.et" "{02AA992B8E40095A}Prefabs/Characters/Factions/OPFOR/Jamahiriya_Army/Character_JamahiriyaOPFOR_Crewman.et"
+ }
+}
