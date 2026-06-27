@@ -13,7 +13,7 @@ Tank : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
     m_aAuthoredLabels +{
     }
     m_aAutoLabels {
-     FACTION_NTC_BLUFOR SIZE_M VEHICLE_APC
+     FACTION_JAMAHIRIYA_OPFOR SIZE_M VEHICLE_APC
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
