@@ -49,44 +49,37 @@ Vehicle : "{57FE9BCA625CA0E3}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Rec
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo GunnerFrontRight {
-     Enabled 0
+     Prefab ""
     }
     RegisteringComponentSlotInfo CamoNet_Front {
-     Enabled 0
+     Prefab ""
     }
     RegisteringComponentSlotInfo CamoNet_Door_L {
-     Enabled 0
+     Prefab ""
     }
     RegisteringComponentSlotInfo CamoNet_Door_R {
-     Enabled 0
+     Prefab ""
     }
     RegisteringComponentSlotInfo CamoNet_Top {
-     Enabled 0
+     Prefab ""
     }
     RegisteringComponentSlotInfo CamoNet_Tray {
-     Enabled 0
+     Prefab ""
     }
     RegisteringComponentSlotInfo GunnerRear {
-     Offset 0 -0.0475 -0.2628
     }
     RegisteringComponentSlotInfo Ammo_01 {
     }
     RegisteringComponentSlotInfo Ammo_02 {
     }
     RegisteringComponentSlotInfo Ammo_03 {
-     Enabled 0
+     Prefab ""
     }
     RegisteringComponentSlotInfo Ammo_04 {
-     Enabled 0
+     Prefab ""
     }
     RegisteringComponentSlotInfo Ammo_08 {
-     Enabled 0
-    }
-    RegisteringComponentSlotInfo BoxRight {
-     Offset 0.4808 1.2023 0.1055
-     Angles 6.781 0 0
-     Prefab "{8F70763AE8BFE381}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Mortar_US_Static.et"
-     DisablePhysicsInteraction 1
+     Prefab ""
     }
    }
   }
